@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GondarEngine2", "GondarEngine2\GondarEngine2.vcxproj", "{9054DD65-B440-4F45-80BD-83007516C563}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebuggingGames", "DebuggingGames\DebuggingGames.vcxproj", "{506641FE-C93E-4390-B9C6-BC54893D778E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9054DD65-B440-4F45-80BD-83007516C563} = {9054DD65-B440-4F45-80BD-83007516C563}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9054DD65-B440-4F45-80BD-83007516C563}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9054DD65-B440-4F45-80BD-83007516C563}.Debug|Win32.Build.0 = Debug|Win32
+		{9054DD65-B440-4F45-80BD-83007516C563}.Release|Win32.ActiveCfg = Release|Win32
+		{9054DD65-B440-4F45-80BD-83007516C563}.Release|Win32.Build.0 = Release|Win32
+		{506641FE-C93E-4390-B9C6-BC54893D778E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{506641FE-C93E-4390-B9C6-BC54893D778E}.Debug|Win32.Build.0 = Debug|Win32
+		{506641FE-C93E-4390-B9C6-BC54893D778E}.Release|Win32.ActiveCfg = Release|Win32
+		{506641FE-C93E-4390-B9C6-BC54893D778E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
